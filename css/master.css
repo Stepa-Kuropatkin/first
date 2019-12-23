@@ -1,0 +1,179 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  width: 100%;
+  clear: both;
+}
+
+div {
+  box-sizing: border-box; /* не учитывает падинги и маргины при опр. высоты */
+}
+
+header {
+  background: url("file:///D:/github/first/img/first-bg.jpg") no-repeat center top / cover;
+  padding-bottom: 160px; /* это шобы центр был */
+}
+
+.container {
+  width: 930px;
+  margin: 0 auto;
+}
+
+.logo {
+  margin-top: 41px;
+  float: left;
+}
+
+nav {
+  float: right;
+  margin-top: 50px;
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.menu li {
+  float: left;
+  display: block;
+  margin-right: 41px;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.menu li a:hover {
+  opacity: 0.8;
+}
+
+.titles__first {
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h1 {
+  font-size: 75px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 15px;
+}
+
+.titles__first {
+  margin-top: 180px;
+}
+
+.button {
+  background: #fed126;
+  color: #484543;
+  border-radius: 3px;
+  display: block;
+  width: 240px;
+  padding: 20px 0;
+  margin: 0 auto;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+.title {
+  padding-top: 115px;
+
+}
+
+.title h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.title p {
+  color: #777;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.services {
+  margin-top: 50px;
+}
+
+.services__item {
+  width: 270px;
+  float: left;
+  text-align: center;
+}
+
+.services__item h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.services__item p {
+  font-size: 14px;
+  color: #777;
+  line-height: 1.55em;
+}
+
+.services__item:last-child {
+  float: right;
+}
+
+.services__item:nth-child(2) {
+  margin-left: 60px;
+}
+
+#Portfolio {
+  background: #f7f7f7;
+  padding-bottom: 120px;
+}
+
+#services {
+  padding-bottom: 120px;
+}
+
+.works {
+  margin-top: 70px;
+}
+
+.works img {
+  float:left;
+}
+
+.works img:nth-child(2) {
+   margin-left: 29px;
+}
+
+.works img:last-child {
+  float: right;
+}
+
+.footer p {
+  color: #777;
+  text-align: center;
+  font-size: 10px;
+}
